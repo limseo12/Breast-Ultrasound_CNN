@@ -1,4 +1,4 @@
-# Chest-CT-Scan_CNN_-kaggle-
+# Chest-CT-Scan_CNN
 CNN을 이용한 흉부암 분류입니다.
 
 데이터
