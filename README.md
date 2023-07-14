@@ -12,7 +12,7 @@
 모델:
 
 CNN 모델을 사용하였습니다.\
-##CNN#####################################################################################################\
+##CNN구조###############################################################################################\
 model.add(Conv2D(input_shape=(IMG_WIDTH,IMG_HEIGHT,3), kernel_size=(3,3), filters=32, activation='relu'))\
 model.add(Conv2D(kernel_size=(3,3), filters=64, activation='relu'))\
 model.add(MaxPooling2D(pool_size=(2,2)))\
