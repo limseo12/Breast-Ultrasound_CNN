@@ -25,6 +25,7 @@ model.add(Dropout(0.5))\
 model.add(Dense(class_nums, activation='softmax'))\
 ############################################################################################################\
 -전이학습을 이용하여 xception 모델을 사용하였습니다 (Xception(weights='imagenet')\
+-(크기가 작은편에 속하여 Xception 모델을 선택)\
 -Learning Rate = 2E-5 (fine-tuning)\
 -다양성을 확보하기 위하여 데이터를 모두 섞어 주었습니다.\
 -데이터 부족으로 인한 데이터증강을 사용하였습니다\
