@@ -36,6 +36,7 @@ model.add(Dense(class_nums, activation='softmax'))\
 정확도 0.96 이상.\
 loss 2.5 (epoch=14)\
 
+*colab_Pro 이상 에서 돌려야 합니다.
 
 
 
