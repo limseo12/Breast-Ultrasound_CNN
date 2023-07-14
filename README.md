@@ -44,6 +44,6 @@ PPT:
 ![image](https://github.com/limseo12/Breast-Ultrasound_CNN/assets/93918673/450f76c8-a454-4830-981e-461bc231cfde)
 ![image](https://github.com/limseo12/Breast-Ultrasound_CNN/assets/93918673/99f2d677-f653-43dd-8789-0ccb5dc33419)
 ![image](https://github.com/limseo12/Breast-Ultrasound_CNN/assets/93918673/4d338d0b-abf0-473a-9464-2abe8b131022)
-![image](https://github.com/limseo12/Breast-Ultrasound_CNN/assets/93918673/37782a9f-d7a3-4dab-9366-fe4162f787f9)
+![image](https://github.com/limseo12/Breast-Ultrasound_CNN/assets/93918673/ca0f178d-b84f-41b3-97a6-0034a5691da6)
 ![image](https://github.com/limseo12/Breast-Ultrasound_CNN/assets/93918673/7adbb96d-3cf7-4354-a6ec-55d97123c4a7)
 
