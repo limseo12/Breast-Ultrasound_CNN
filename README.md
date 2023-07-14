@@ -11,13 +11,25 @@
 
 모델:
 CNN 모델을 사용하였습니다.
-(
--전이학습을 이용하여 xception 모델을 가져왔습니다.
--Learning Rate = 2E-5 (finetuning)
--데이터 부족으로 인한 데이터증강을사용하였습니다
--다양성을 확보하기 위하여 데이터를 섞어주었습니다.
--callbacks 함수로는 checkpoint, earlystopping
-################
+##CNN#####################################################################################################
+model.add(Conv2D(input_shape=(IMG_WIDTH,IMG_HEIGHT,3), kernel_size=(3,3), filters=32, activation='relu'))
+model.add(Conv2D(kernel_size=(3,3), filters=64, activation='relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+model.add(Dropout(0.25))
+model.add(Flatten())
+model.add(Dense(256, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(class_nums, activation='softmax'))
+############################################################################################################
+-전이학습을 이용하여 xception 모델을 사용하였습니다 (Xception(weights='imagenet')
+-Learning Rate = 2E-5 (fine-tuning)
+-다양성을 확보하기 위하여 데이터를 모두 섞어 주었습니다.
+-데이터 부족으로 인한 데이터증강을 사용하였습니다
+-callbacks 함수로는 checkpoint, earlystopping 을 사용하였습니다
+
+결과:
+정확도 0.96 이상.
+loss 2.5 (epoch=14)
 
 
 
